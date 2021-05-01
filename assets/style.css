@@ -96,13 +96,27 @@ body{
 	background-image: url('bg.png');
 	
 }
+h4{
+	color:white;
+	font-family:TT-norms-light;
+}
 .box{
 	width: 31%;
     HEIGHT: 413px;
     margin-left: 117px;
-    display: inline-flex;
+    display: inline-grid;
 	justify-content: center;
 	transition: 0.5s;
+	text-align:center;
+}
+p{
+	color:gray;
+	font-size:14px;
+	margin-top: -7px;
+}
+.list{
+	position: relative;
+    bottom: 169px;
 }
 .box:hover{
 
