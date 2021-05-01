@@ -1,0 +1,25 @@
+{
+  "name": "gravitinstaller",
+  "version": "1.0.0",
+  "description": "Builder For GravitLauncher",
+  "main": "index.html",
+  "author": "old.",
+  "window": {
+    "toolbar": true,
+    "width": 900,
+    "resizable": false,
+    "height": 500,
+    "icon": "assets/favicon.png"
+  },
+  "dependencies": {
+    "github-api": "^3.4.0",
+    "nw": "^0.53.0",
+    "nw-builder": "^3.5.7",
+    "temp": "^0.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,197 @@
+@font-face {
+
+	font-family: "FontAwesome"; 
+	
+	src: url("fonts/fas-solid.otf") format("truetype"); 
+	font-style: solid; 
+	font-weight: normal; 
+	}
+	@font-face {
+	
+	font-family: "FontAwesome-reg"; 
+	
+	src: url("fonts/fas-regular.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	}
+	@font-face {
+	
+	font-family: "FontAwesome-light"; 
+	
+	src: url("fonts/fas-light.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	}
+@font-face {
+
+	font-family: "TT-norms-bold"; 
+	
+	src: url("fonts/TTNorms-Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	}
+	@font-face {
+	
+	font-family: "TT-norms-light"; 
+	
+	src: url("fonts/TTNorms-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	}
+	@font-face {
+	
+	font-family: "TT-norms-medium"; 
+	
+	src: url("fonts/TTNorms-Medium.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	}
+	@font-face {
+	
+	font-family: "TT-norms"; 
+	
+	src: url("fonts/TTNorms-Regular.ttf") format("truetype"); 
+	font-style: regular; 
+	font-weight: normal; 
+	}
+	*{
+		cursor: none;
+	}
+	h2{
+		font-family: TT-Norms-bold;
+		color:white;
+		margin-left: 10px;
+    margin-top: 17px;
+	}
+	i{
+		font-family: FontAwesome-reg;
+		color:white;
+		font-style: normal;
+	}
+	.blackbox{
+		background-color: rgba(80, 80, 80, 0.28);
+		border-radius:10px;
+
+	}
+	.cursor-dot, .cursor-dot-outline {
+		z-index: 99999999999999999999999999;
+		pointer-events: none;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		border-radius: 50%;
+		opacity: 0;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+		transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+		transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	}
+body{
+	
+	font-family: TT-norms-medium;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	background-color: #1a202c;
+	background-image: url('bg.png');
+	
+}
+.box{
+	width: 31%;
+    HEIGHT: 413px;
+    margin-left: 117px;
+    display: inline-flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+.box:hover{
+
+	box-shadow:         0px 0px 20px 0px rgba(255, 255, 255, 0.19);
+}
+h3{
+	color:white;
+	font-family: 'TT-norms';
+}
+.welcome-content {
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+			align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+			flex-flow: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	width: 100%;
+	height: 408px; color:#1a202c; }
+  
+  .welcome-logo {
+	color: #2b8ced;
+	font-size: 18px; 
+    margin-top:18px;
+}
+  
+  .welcome-text {
+	font-size: 30px;
+	margin-top: 5px;
+	font-weight: 600;color:white; }
+  
+  .button-primary {
+	background-color: #2b8ced;
+	border: none;
+	display: -webkit-box;
+	display: -webkit-flex;
+	font-family: TT-Norms-medium;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+		-ms-flex-align: center;
+			align-items: center;
+	color: #ffffff;
+	padding: 12px 20px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(43, 140, 237, 0.5);
+			box-shadow: 0px 0px 15px 0px rgba(43, 140, 237, 0.5);
+			transition:0.5s;
+	text-decoration: none; }
+	.button-primary i {
+	  font-size: 22px;
+	  margin-right: 10px;
+	font-family:FontAwesome;
+	}
+	.cursor-dot {
+		width: 8px;
+		height: 8px;
+		background-color: #2b8ced;
+	  }
+	  .cursor-dot-outline {
+		width: 40px;
+		height: 40px;
+		background-color: rgba(43, 140, 237, 0.5);
+	  }
+	.button-primary:hover {
+	  color: #fff; box-shadow: 0px 0px 24px 0px rgb(43 140 246);
+	}
+	a{
+		text-decoration: none;
+	}
+	.back{
+		margin-left: 95%;
+		font-size: 23px;
+		position: relative;
+		bottom: 46px;
+		color:gray;
+		transition: 0.5s;
+	}
+	.back:hover{
+		color:white;
+	}
+	.header{
+		height: 45px;
+	}
