@@ -8,20 +8,30 @@
   </head>
   <body>
       <div class="header">
-     <h2>Шаг 1. Выбор версии</h2><i class="back">long-arrow-left</i>
+     <h2>Шаг 1. Выбор версии</h2><a href="../index.html"><i class="back">long-arrow-left</i></a>
 </div>
 <div>
-      <div class="blackbox box">
+     <a href="modules.html"> <div class="blackbox box" onclick="selectver('dev');">
         <h3>Dev</h3>
-        <br>
         <h4>Плюсы</h4>
-    </div>
-    <div class="blackbox box">
-      <h3>Master</h3>
+      <p>Новый функционал</p>
+      <p>Часто обновляется</p>
       <br>
+      <h4>Минусы</h4>
+      <p>Могут быть баги</p>
+      <p>Множество недоработок</p>
+    </div>
+    <div class="blackbox box" onclick="selectver('master');">
+      <h3>Master</h3>
       <h4>Плюсы</h4>
+      <p>Стабильная версия</p>
+      <p>Очень мало багов</p>
+      <br>
+      <h4>Минусы</h4>
+      <p>Меньше функционала</p>
+      <p>Долго ждать обновлений</p>
     </div>
-    </div>
+    </div></a>
     <div class="cursor-dot-outline"></div>
     <div class="cursor-dot"></div>
     <script src="../assets/scripts/libs.min.js"></script>
